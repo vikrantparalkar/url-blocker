@@ -4,8 +4,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       return {cancel: true}; 
     },
     {urls: 
-      ["*://*.doubleclick.net/*",
-      "*://*.w3schools.com/*"]
+      ["*://*.instagram.net/*",
+      "*://*.youtube.com/*"]
       // add more urls
     },
     ["blocking"]
