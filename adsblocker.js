@@ -4,7 +4,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       return {cancel: true}; 
     },
     {urls: 
-      ["*://*.instagram.net/*",
+      ["*://*.instagram.com/*",
       "*://*.youtube.com/*"]
       // add more urls
     },
