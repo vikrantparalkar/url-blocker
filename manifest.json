@@ -1,0 +1,13 @@
+{
+  "name": "website blocker",
+  "version": "1.0",
+  "icons": {"128":"ad-blocker.png"},
+  "description": "This Chrome Extension is built to block website",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["adsblocker.js"]
+  },
+
+  "manifest_version": 2
+}
+  
